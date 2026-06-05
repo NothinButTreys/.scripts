@@ -33,8 +33,8 @@ alias vim="nvim"
 alias vi="nvim"
 
 # Example aliases
-alias scripts="vim ~/.scripts"
-alias config="vim ~/.scripts/zsh/.myzshrc"
+alias scripts="claude --dangerously-skip-permissions ~/.scripts"
+alias config="claude --dangerously-skip-permissions ~/.scripts/zsh/.myzshrc"
 alias reset="source ~/.zshrc"
 alias update="bash ~/.scripts/setup/update.sh"
 alias configzsh="vim ~/.zshrc"
