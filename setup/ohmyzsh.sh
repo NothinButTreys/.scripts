@@ -30,7 +30,7 @@ if [ -d ~/.oh-my-zsh ]; then
       echo "else" >> ~/.zshrc
       echo "    print \"404: ~/.scripts/zsh/.myzshrc not found.\"" >> ~/.zshrc
       echo "    print \"*************************************************************\"" >> ~/.zshrc
-      echo "    print \"* cd ~ && git clone https://github.com/bcbrian/.scripts.git *\"" >> ~/.zshrc
+      echo "    print \"* cd ~ && git clone https://github.com/NothinButTreys/.scripts.git *\"" >> ~/.zshrc
       echo "    print \"*************************************************************\"" >> ~/.zshrc
       echo "fi" >> ~/.zshrc
       echo "# END INCLUDE CUSTOM RC" >> ~/.zshrc
@@ -54,7 +54,7 @@ else
     echo "else" >> ~/.zshrc
     echo "    print \"404: ~/.scripts/zsh/.myzshrc not found.\"" >> ~/.zshrc
     echo "    print \"*************************************************************\"" >> ~/.zshrc
-    echo "    print \"* cd ~ && git clone https://github.com/bcbrian/.scripts.git *\"" >> ~/.zshrc
+    echo "    print \"* cd ~ && git clone https://github.com/NothinButTreys/.scripts.git *\"" >> ~/.zshrc
     echo "    print \"*************************************************************\"" >> ~/.zshrc
     echo "fi" >> ~/.zshrc
     echo "# END INCLUDE CUSTOM RC" >> ~/.zshrc

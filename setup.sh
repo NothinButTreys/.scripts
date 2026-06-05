@@ -6,7 +6,7 @@ cd ~
 clear
 
 # Bootstrap: fetch from repo (raw GitHub) so we always use latest
-SCRIPTS_RAW="${SCRIPTS_RAW:-https://raw.githubusercontent.com/bcbrian/.scripts/main}"
+SCRIPTS_RAW="${SCRIPTS_RAW:-https://raw.githubusercontent.com/NothinButTreys/.scripts/main}"
 curl --silent -o- "$SCRIPTS_RAW/setup/logo.sh" | bash
 #######################
 # START SETUP TOOLING #

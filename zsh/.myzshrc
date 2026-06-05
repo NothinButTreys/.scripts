@@ -1,13 +1,13 @@
 # CUSTOMIZATION FOR ZSH
-# if [ -r /c/Users/brian/.scripts/zsh/.myzshrc ]; then
-#     source /c/Users/brian/.scripts/zsh/.myzshrc
+# if [ -r ~/.scripts/zsh/.myzshrc ]; then
+#     source ~/.scripts/zsh/.myzshrc
 # fi
 # Store original directory before changing to root
 ORIGINAL_DIR=$(pwd)
 cd ~        
 
 # logo (skip when SKIP_LOGO=1, e.g. during update/setup)
-[[ -z "$SKIP_LOGO" ]] && sh -c "$(curl -fsSL https://scripts.codesagas.dev/setup/logo.sh)"
+[[ -z "$SKIP_LOGO" ]] && sh -c "$(curl -fsSL https://raw.githubusercontent.com/NothinButTreys/.scripts/main/setup/logo.sh)"
 
 # Auto-update .scripts once per 24hrs (throttle file is gitignored, local to each machine)
 LAST_PULL_FILE="$HOME/.scripts/.last-auto-pull"

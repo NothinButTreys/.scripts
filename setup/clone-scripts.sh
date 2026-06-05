@@ -5,7 +5,7 @@
 
 source ~/.zshrc 2>/dev/null || true
 
-SCRIPTS_GH_REPO="${SCRIPTS_GH_REPO:-bcbrian/.scripts}"
+SCRIPTS_GH_REPO="${SCRIPTS_GH_REPO:-NothinButTreys/.scripts}"
 SCRIPTS_DIR="${SCRIPTS_DIR:-$HOME/.scripts}"
 
 if [[ -d "$SCRIPTS_DIR" ]] && [[ -d "$SCRIPTS_DIR/.git" ]]
